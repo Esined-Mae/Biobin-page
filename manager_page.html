@@ -86,7 +86,7 @@
   </div>
 
 <!-- NOTIF BOX -->
-  <div id="notificationBox" class="notification-box">
+<!--   <div id="notificationBox" class="notification-box">
     <div id="notificationHeader" class="notification-header">
       Notifications
     </div>
@@ -99,7 +99,7 @@
       <li><a href="#update" class="notif-cont">New review for BioBin-x: 5 stars. Click to view.</a></li>
       <li><a href="#update" class="notif-cont">Your stock of Compost Bin is running low. Restock soon to avoid selling out!</a></li>
     </ul>
-  </div>
+  </div> -->
 
 <!-- SCRIPTS -->
 <script>
@@ -143,32 +143,32 @@ document.addEventListener("DOMContentLoaded", function () {
         });
       });
 
-    // For notif
-        const notificationBtn = document.getElementById('notificationBtn');
-        const notificationBox = document.getElementById('notificationBox');
+    // // For notif
+    //     const notificationBtn = document.getElementById('notificationBtn');
+    //     const notificationBox = document.getElementById('notificationBox');
 
-        // Show notification box when mouse enters the button
-        notificationBtn.addEventListener('mouseenter', () => {
-          notificationBox.style.display = 'block';
-        });
+    //     // Show notification box when mouse enters the button
+    //     notificationBtn.addEventListener('mouseenter', () => {
+    //       notificationBox.style.display = 'block';
+    //     });
 
-        // Show notification box when mouse enters the box
-        notificationBox.addEventListener('mouseenter', () => {
-          notificationBox.style.display = 'block';
-        });
+    //     // Show notification box when mouse enters the box
+    //     notificationBox.addEventListener('mouseenter', () => {
+    //       notificationBox.style.display = 'block';
+    //     });
 
-        // Hide notification box when mouse leaves both the button and the box
-        notificationBtn.addEventListener('mouseleave', () => {
-          setTimeout(() => {
-            if (!notificationBox.matches(':hover')) {
-              notificationBox.style.display = 'none';
-            }
-          }, 100);
-        });
+    //     // Hide notification box when mouse leaves both the button and the box
+    //     notificationBtn.addEventListener('mouseleave', () => {
+    //       setTimeout(() => {
+    //         if (!notificationBox.matches(':hover')) {
+    //           notificationBox.style.display = 'none';
+    //         }
+    //       }, 100);
+    //     });
 
-        notificationBox.addEventListener('mouseleave', () => {
-          notificationBox.style.display = 'none';
-        });
+    //     notificationBox.addEventListener('mouseleave', () => {
+    //       notificationBox.style.display = 'none';
+    //     });
 
   </script>
     </body>
