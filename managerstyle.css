@@ -240,7 +240,7 @@ main {
   height: auto;
 }
 
-/* Notif box *//*
+/* Notif box  */
 .notification-box {
   position: absolute;
   top: 50px;
@@ -282,9 +282,8 @@ main {
 .notification-list .notif-cont:hover {
   background-color: #cfffcf;  
   padding-left: 15px; 
-  /* text-decoration: underline; 
-}*/
-/*
+}
+
 .notification-box:hover {
   display: block;  
 }
@@ -293,7 +292,6 @@ main {
   transform: translateX(0);  
   opacity: 1;
 }
-*/
 
 .notification-box {
   position: absolute;
